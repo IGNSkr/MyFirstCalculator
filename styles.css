@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: 'Cabin', sans-serif;
+}
+
+body h1{
+
+    font-size: 3.4rem;
+    background-color: darkgray;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+/* Styling the Buttons */
+
+.container
+{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .frst-row-btn{
+
+  
+    width: 3vw;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-family: 'Cabin', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+} */
+
+.buttons{
+
+    width: 3vw;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 700;
+}
+
+.buttons:hover{
+    background-color: rgb(199, 199, 199);
+    transition: 0.2s ease-out;
+    
+}
+
+/* Styling the display section */
+
+.inputtext{
+    padding: 20px;
+}
+.inputtext input
+{
+    width: 15vw;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Responsiveness */
+
+@media (max-width:785px) {
+
+    body h1{
+
+        font-size: 2.4rem;     
+        
+    }
+
+    .container
+    {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    
+    .buttons{
+    
+        width: 6vw;
+        padding: 25px;    
+    }
+
+    .inputtext input
+    {
+    width: 65vw;
+    padding: 15px 35px;
+
+    }
+}
+
+
+
+
