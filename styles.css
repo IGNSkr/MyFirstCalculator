@@ -79,6 +79,15 @@ body h1{
     font-size: 0.9rem;
 }
 
+.displayelement{
+
+    font-family: 'Cabin', sans-serif;
+    font-size: 5.0rem;
+    font-weight: 800;
+    text-align: center;
+
+}
+
 /* Responsiveness */
 
 @media (max-width:785px) {
